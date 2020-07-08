@@ -3,7 +3,8 @@ def new_hash
 end
 
 def my_hash
-  [:key] = "value"
+  my_hash = Hash.new
+  my_hash [:key] = "value"
 end
 
 def pioneer

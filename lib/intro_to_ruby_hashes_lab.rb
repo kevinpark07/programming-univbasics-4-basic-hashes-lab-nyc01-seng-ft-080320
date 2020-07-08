@@ -16,5 +16,7 @@ end
 
 
 def id_hash_generator(number)
-  # return a hash with a key :id assigned to the provided number
+  hash_generator = Hash.new
+  hash_generator [:id] = number
+  return hash_generator
 end
